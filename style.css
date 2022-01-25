@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2? family= Sedgwick+Ave & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Josefin+Sans:ital,wght@0,400;1,300 & display=swap');
+
+:root {
+    --font-titulo: 'Sedgwick Ave', sans-serif;
+    --font-padrao: 'josefin sans', sans-serif;
+
+    --cor01: #F20C60;
+    --cor02: #F20C8B;
+    --cor03: #F20CA2;
+    --cor04: #051DA6;
+    --cor05: #F2F2F2;
+    --cor06: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner-home {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.conteudo {
+    background-color: #F20C8B;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header {
+    background: #F2F2F2;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-conteiner {
+    background: var(--cor03);
+    padding: 1rem;
+    margin-left: 1.5rem;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: .8rem;
+    margin-right: 1.5rem;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--cor06);
+    font-family: var(--font-padrao);
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    transition: ease-in-out 0.2s;
+}
+
+.menu a:hover {
+    border-bottom: 3px solid var(--cor02);
+}
+
+/*Conteúdo main*/
+
+.main-conteiner-home {
+    width: 100%;
+    height: calc(100% - 140px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.information {
+    width: 80%;
+    height: 80%;
+    background: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.information h1 {
+    
+}
+
+
+/*footer*/
+.footer {
+    width: 100%;
+    height: 70px;
+    background: var(--cor04);
+}
