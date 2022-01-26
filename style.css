@@ -88,8 +88,24 @@
     justify-content: center;
 }
 
-.information h1 {
-    
+/*
+div-image com a logo
+*/
+
+.information p {
+    font-family: var(--font-padrao);
+    font-style: italic;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;    
+}
+
+#botao {
+    font-family: var(--font-padrao);    
+    color: var(--cor06);
+    font-size: 1.3rem;
+    text-decoration: none;
+    border-bottom: 3px solid var(--cor02);
+    border-radius: 5px;
 }
 
 
