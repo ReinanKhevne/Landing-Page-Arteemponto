@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2? family= Sedgwick+Ave & display=swap');
 @import url('https://fonts.googleapis.com/css2? family= Josefin+Sans:ital,wght@0,400;1,300 & display=swap');
+@import url(https://fonts.googleapis.com/css?family=Sacramento:regular);
 
 :root {
-    --font-titulo: 'Sedgwick Ave', sans-serif;
+    --font-titulo: 'Sacramento', sans-serif;
     --font-padrao: 'josefin sans', sans-serif;
 
     --cor01: #F20C60;
@@ -88,13 +88,18 @@
     justify-content: center;
 }
 
-/*
-div-image com a logo
-*/
+.title {
+    height: 6rem;
+}
+
+.title h1 {
+    margin-bottom: 1rem;
+    font-family: var(--font-titulo);
+    font-size: 5rem;
+}
 
 .information p {
     font-family: var(--font-padrao);
-    font-style: italic;
     line-height: 1.5;
     margin-bottom: 1.5rem;    
 }
