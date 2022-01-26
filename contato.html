@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Arte em Ponto | A arte em crochê</title>
+    <title>Contato | Arte em Ponto</title>
     <script src="https://kit.fontawesome.com/8ce8d45b1f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+
     <div class="conteiner-home">
+
+        <picture class="image-principal-home">
+            
+        </picture> 
 
         <div class="conteudo">
 
@@ -20,7 +24,7 @@
                     <img src="#" alt="Arte-em-Ponto">
                 </div>
 
-                <nav class="nav">
+                <nav class="nav" id="nav-contato">
 
                     <div class="mobile">
                         <ul class="bnt-mobile">
@@ -40,23 +44,39 @@
 
             </header>
 
-            <main class="main-conteiner-home">
+            <main class="main-conteiner-contato">
 
-                <div class="information">
+                <div class="title-contato">
+                    <h1>Contato</h1>
+                </div> 
 
-                    <h1 id="title">Arte em Ponto</h1>
+                <div class="conteiner-form"> 
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores tempora fugiat in animi recusandae nulla quis eveniet repellat numquam, officiis similique quibusdam voluptatum tempore atque, temporibus molestias aspernatur culpa impedit?</p>
-                    
-                    <a id="botao" href="#">Saiba Mais</a>
+                    <form class="form" action="">
+
+                        <div class="elemento">
+                            <input type="text" name="name" id="name" placeholder="Qual o seu nome?">
+                        </div>
+
+                        <div class="elemento">
+                            <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                        </div>
+
+                        <div class="elemento">
+                            <textarea name="mensagem" id="mensagem" cols="30" rows="10">Escreva aqui sua mensagem...</textarea>
+                        </div>
+
+                        <button type="submit" id="form-button">Enviar</button>
+
+                    </form>
                    
                 </div>
 
             </main>
 
-            <footer class="footer">
+            <footer class="footer-contato">
 
-                <div class="midias-sociais">
+                <div class="midias-sociais-contato">
                     <a href="https://www.instagram.com/arte_emponto8/" target="_blank" rel="external">
                         <i class="fab fa-instagram"></i>
                     </a>
@@ -65,11 +85,8 @@
             </footer>
 
         </div>
-
-        <picture class="image-principal-home">
-            
-        </picture>  
-    </div>  
+ 
+    </div> 
 
 </body>
 </html>
