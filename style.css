@@ -179,6 +179,8 @@
     border-radius: 5px;
 }
 
+#mais {display: none;}
+
 /*footer*/
 .footer {
     width: 100%;
