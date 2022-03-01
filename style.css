@@ -138,13 +138,13 @@
     height: calc(100% - 140px);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; flex-direction: column;
     background: var(--cor05);
 }
 
 .information {
     width: 80%;
-    height: 80%;
+    height: 70%;
 }
 
 .information h1 {
@@ -299,4 +299,14 @@
 .midias-sociais-contato a {
     color: var(--cor06);
     font-size: 2.5rem;
+}
+
+/*image mobile*/
+
+@media screen and (max-width: 810px) {
+    .image-mobile {
+        width: 90%; height: 40%; background: var(--cor02);
+        border-radius: 8px; background-image: url(imagens/crochê-home.jpg); background-position: center center; background-size: cover;
+        
+    }
 }
